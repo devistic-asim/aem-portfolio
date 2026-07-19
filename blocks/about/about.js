@@ -13,6 +13,8 @@ function socialIcon(type) {
     email: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>',
     github: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2C6.48 2 2 6.58 2 12.26c0 4.52 2.87 8.35 6.84 9.7.5.1.68-.22.68-.48v-1.7c-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.27 2.75 1.05A9.3 9.3 0 0 1 12 7.2c.85 0 1.7.12 2.5.34 1.9-1.32 2.74-1.05 2.74-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .26.18.59.69.48A10.27 10.27 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"/></svg>',
     linkedin: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zM8.34 18.34H5.67v-8.1h2.67v8.1zM7 9.1a1.55 1.55 0 1 1 0-3.1 1.55 1.55 0 0 1 0 3.1zm11.34 9.24h-2.67v-4.3c0-1.02-.02-2.34-1.43-2.34-1.43 0-1.65 1.12-1.65 2.27v4.37H9.92v-8.1h2.56v1.11h.04c.36-.68 1.23-1.4 2.53-1.4 2.7 0 3.2 1.78 3.2 4.1v4.29z"/></svg>',
+    x: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.74l7.727-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>',
+    devto: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7.42 10.05c-.18-.16-.46-.23-.84-.23H6l.02 2.44.04 2.47.27.02c.62 0 .92-.17.92-.66v-3.7c0-.2-.06-.35-.18-.46l-.65-.88zm9.56.24c-.18-.16-.46-.23-.84-.23h-.58v6.1h.58c.38 0 .66-.07.84-.23.18-.16.27-.4.27-.72v-4.2c0-.32-.09-.56-.27-.72zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM8.56 14.7c-.4.5-1.02.76-1.85.76H4.5V8.5h2.26c.8 0 1.4.23 1.81.7.4.47.6 1.15.6 2.04v1.4c0 .9-.2 1.58-.61 2.06zm4.42-.9h-1.2V9.4h1.2v4.4zm5.1.9c-.4.5-1.02.76-1.85.76h-2.26V8.5h2.26c.8 0 1.4.23 1.81.7.4.47.6 1.15.6 2.04v1.4c0 .9-.2 1.58-.56 2.06z"/></svg>',
   };
   return icons[type] || '';
 }
@@ -22,7 +24,9 @@ function detectSocial(href, text) {
   const t = (text || '').toLowerCase();
   if (h.includes('github.com') || t.includes('github')) return 'github';
   if (h.includes('linkedin.com') || t.includes('linkedin')) return 'linkedin';
-  if (h.startsWith('mailto:') || t.includes('@') || t.includes('email')) return 'email';
+  if (h.includes('x.com') || h.includes('twitter.com') || t === 'x' || t.includes('twitter')) return 'x';
+  if (h.includes('dev.to') || t.includes('dev.to') || t === 'devto') return 'devto';
+  if (h.startsWith('mailto:') || t.includes('email')) return 'email';
   return null;
 }
 

@@ -64,3 +64,9 @@
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+@media (width >= 1200px) {
+  .contact-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

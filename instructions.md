@@ -134,10 +134,21 @@ Official tutorial: https://www.aem.live/developer/tutorial
 
 ## 7. Portfolio content defaults
 
-- Role: Full-Stack .NET Developer / Sr. Software Engineer
-- Skills: .NET Core, C#, React, Blazor, SQL Server, JS/TS, HTML/CSS, Bootstrap, Tailwind, Azure, Firebase, AEM/EDS, Git
-- Projects: E-Commerce, Health Management, Real Estate, Inventory (placeholder links to GitHub until real URLs are added)
-- Social: GitHub `devistic-asim`, email `asim.devistic@gmail.com`, LinkedIn (update URL in content)
+Sourced from [FlowCV profile](https://flowcv.me/devistic) and [online resume](https://flowcv.com/resume/bi3n0fepke).
+
+- Role: Senior Software Engineer / Full-Stack .NET Developer (5+ years)
+- Location: Karachi, Pakistan
+- Phone: 0320-0279291
+- Email: `asim.devistic@gmail.com`
+- Resume CTA: https://flowcv.com/resume/bi3n0fepke
+- Skills: .NET Core, C#, ASP.NET MVC, React, Blazor, Angular, SQL Server, Dapper, JS, HTML/CSS, Bootstrap, Tailwind, SharePoint, Azure DevOps, AEM/EDS, Git
+- Highlight projects: Fougito, BankIslami Mobile Banking, KE New Connections Suite, Tanjim Dubai, Tristate Health, On My Way
+- Social:
+  - LinkedIn: https://www.linkedin.com/in/devistic-asim
+  - GitHub: https://github.com/devistic-asim
+  - X: https://x.com/devistic_asim
+  - dev.to: https://dev.to/devistic
+  - Profile: https://flowcv.me/devistic
 
 ---
 
