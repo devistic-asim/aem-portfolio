@@ -68,6 +68,18 @@ Local HTML for development (`npm run dev` / `aem up --html-folder drafts`).
 | `drafts/nav.plain.html` | Nav fragment for header |
 | `drafts/footer.plain.html` | Footer fragment |
 
+## `dalive/`
+
+Copy-paste content for https://da.live/ (not served as site code).
+
+| Path | Purpose |
+|------|---------|
+| `dalive/README.txt` | How to paste into da.live |
+| `dalive/home.txt` | Full home page content |
+| `dalive/nav.txt` | Nav fragment (`/nav`) |
+| `dalive/footer.txt` | Footer fragment (`/footer`) |
+| `dalive/blocks/*.txt` | One file per block (optional) |
+
 ## `docs/` and `tutorial/`
 
 | Path | Purpose |

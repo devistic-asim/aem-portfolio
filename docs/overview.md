@@ -17,7 +17,8 @@ Short, one-topic guides for **aem-portfolio** (Muhammad Asim personal site on AE
 | File | What it covers |
 |------|----------------|
 | [da-live-authoring.md](da-live-authoring.md) | Create portfolio pages in da.live |
-| [da-live-home-content.md](da-live-home-content.md) | **Paste-ready** home / nav / footer from FlowCV |
+| [da-live-home-content.md](da-live-home-content.md) | Paste-ready tables (docs version) |
+| [`../dalive/`](../dalive/) | **Simple folder** — copy/paste `.txt` files into da.live |
 | [sidekick.md](sidekick.md) | Install and use AEM Sidekick |
 | [preview-and-publish.md](preview-and-publish.md) | Preview vs publish |
 | [metadata.md](metadata.md) | SEO, template, theme, nav/footer |

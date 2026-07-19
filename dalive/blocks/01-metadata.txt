@@ -1,0 +1,7 @@
+Paste as a Metadata table on the home page:
+
+title | Muhammad Asim | Senior Software Engineer
+description | Full-Stack .NET Developer in Karachi — .NET Core, React, SQL Server, FinTech & e-commerce.
+nav | /nav
+footer | /footer
+theme | dark

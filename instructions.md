@@ -124,6 +124,7 @@ Official tutorial: https://www.aem.live/developer/tutorial
 
 | Path | Use |
 |------|-----|
+| `dalive/` | **Copy/paste content for da.live** (`home.txt`, `nav.txt`, `footer.txt`) |
 | `docs/overview.md` | Docs index |
 | `docs/file-map.md` | Every file explained |
 | `docs/portfolio-blocks.md` | Authoring tables |

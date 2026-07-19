@@ -1,0 +1,9 @@
+Create a TABLE in da.live. First row name = hero
+
+hero
+Senior Software Engineer
+Muhammad Asim
+Full-Stack .NET Developer with 5+ years building scalable web apps, FinTech backends, and e-commerce platforms. Skilled in ASP.NET, .NET Core, C#, React, and SQL Server — delivering clean code and reliable solutions on time.
+Download Resume
+
+Link "Download Resume" to: https://flowcv.com/resume/bi3n0fepke

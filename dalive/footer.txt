@@ -1,0 +1,12 @@
+© 2026 Muhammad Asim — flowcv.me/devistic — Built with Adobe Experience Manager Edge Delivery Services
+
+
+HOW TO BUILD IN DA.LIVE
+-----------------------
+One paragraph:
+
+  © 2026 Muhammad Asim — flowcv.me/devistic — Built with Adobe Experience Manager Edge Delivery Services
+
+Link the text "flowcv.me/devistic" to:  https://flowcv.me/devistic
+
+Save path as:  /footer

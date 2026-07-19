@@ -1,0 +1,16 @@
+Create a TABLE in da.live. First row name = about
+
+about
+Muhammad Asim
+Email | GitHub | LinkedIn | X | dev.to
+About
+Get to know a bit about me
+I'm Muhammad Asim, a Senior Software Engineer based in Karachi, Pakistan. With over 5 years of experience as a Full-Stack .NET Developer, I work with ASP.NET, .NET Core, C#, MVC, Web APIs, Razor, Blazor, and JavaScript frameworks like React and jQuery.
+My front-end work covers HTML5, CSS3, Bootstrap, Tailwind, and responsive design. On the back end I use MSSQL Server, MySQL, Dapper, and Web APIs to build scalable solutions. I focus on clean code, mentoring teammates, and using AI tools like Cursor and ChatGPT to ship faster.
+
+LINKS (make each word a link):
+Email    → mailto:asim.devistic@gmail.com
+GitHub   → https://github.com/devistic-asim
+LinkedIn → https://www.linkedin.com/in/devistic-asim
+X        → https://x.com/devistic_asim
+dev.to   → https://dev.to/devistic

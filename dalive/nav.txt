@@ -1,0 +1,22 @@
+< Muhammad Asim >
+
+- About → #about
+- Skills → #skills
+- Projects → #projects
+- Contact → #contact
+
+
+HOW TO BUILD IN DA.LIVE
+-----------------------
+Section 1 (brand):
+  Type:  < Muhammad Asim >
+  Make it a link to:  /
+
+Section 2 (menu):
+  Bullet list:
+    About     → link to #about
+    Skills    → link to #skills
+    Projects  → link to #projects
+    Contact   → link to #contact
+
+Save path as:  /nav

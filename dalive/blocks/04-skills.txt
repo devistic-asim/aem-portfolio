@@ -1,0 +1,21 @@
+Create a TABLE in da.live. First row name = skills
+One skill per row:
+
+skills
+.NET Core
+C#
+ASP.NET MVC
+React
+Blazor
+Angular
+SQL Server
+Dapper
+JavaScript
+HTML5
+CSS3
+Bootstrap
+Tailwind CSS
+SharePoint
+Azure DevOps
+AEM / EDS
+Git

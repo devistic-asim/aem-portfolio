@@ -1,0 +1,10 @@
+Create a TABLE in da.live. First row name = projects
+Columns: Title | Description | Tech | Link text+URL
+
+projects
+Fougito Platform | All-in-one platform for restaurants and auto businesses — POS, dashboards, payment gateways, and Web APIs. | .NET Core, Web APIs, SQL Server, React, Bootstrap | View Profile → https://flowcv.me/devistic
+BankIslami Mobile Banking | Backend for BankIslami mobile app and internet banking — transfers, bill payments, SBP compliance, L3 support. | .NET Core, Dapper, MS SQL Server, FinTech | View on LinkedIn → https://www.linkedin.com/in/devistic-asim
+KE New Connections Suite | Digital forms and tracking for K-Electric — New Connections, Net Metering, Scheme Designs, SAP integration. | .NET Core, SharePoint, React, SQL Server, SAP | View Resume → https://flowcv.com/resume/bi3n0fepke
+Tanjim Dubai E-Commerce | Clothing e-commerce with admin portal and mobile APIs. | .NET Core, Web APIs, SQL Server, Bootstrap | View on GitHub → https://github.com/devistic-asim
+Tristate Health Inc | Healthcare site and admin portal for patients and appointments. | .NET, SQL Server, Bootstrap, jQuery | View Profile → https://flowcv.me/devistic
+On My Way — Car Rental | Dubai car rental web platform with mobile APIs. | .NET Core, Web APIs, SQL Server | View Resume → https://flowcv.com/resume/bi3n0fepke
