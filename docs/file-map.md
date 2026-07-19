@@ -68,6 +68,18 @@ Local HTML for development (`npm run dev` / `aem up --html-folder drafts`).
 | `drafts/nav.plain.html` | Nav fragment for header |
 | `drafts/footer.plain.html` | Footer fragment |
 
+## `content/` and `config/`
+
+| Path | Purpose |
+|------|---------|
+| `content/index.html` | Home page (upload to da.live) |
+| `content/nav.html` | Nav fragment |
+| `content/footer.html` | Footer fragment |
+| `config/helix-site.json` | Helix 5 site config template |
+| `fstab.yaml` | Content bus URL reference |
+| `scripts/content-push.mjs` | Upload + preview/publish CLI |
+| `.env.example` | Token template (copy to `.env`) |
+
 ## `dalive/`
 
 Copy-paste content for https://da.live/ (not served as site code).

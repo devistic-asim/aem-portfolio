@@ -11,12 +11,13 @@ Code is ready in this repo. Adobe + GitHub wiring needs your accounts.
 5. [ ] Sign in to [da.live](https://da.live/) with your Adobe ID
 6. [ ] Connect/create the site for `aem-portfolio`
 7. [ ] Install [AEM Sidekick](https://chromewebstore.google.com) (search “AEM Sidekick”) and pin it
-8. [ ] Author `/`, `/nav`, `/footer` — **copy from folder** [`dalive/`](../dalive/) (`home.txt`, `nav.txt`, `footer.txt`)
-9. [ ] Sidekick **Preview** → confirm https://main--aem-portfolio--devistic-asim.aem.page/
-10. [ ] Sidekick **Publish** → https://main--aem-portfolio--devistic-asim.aem.live/
-11. [ ] Optional: add headshot image in the About block
+8. [ ] Copy `.env.example` → `.env`, add tokens (see `docs/content-workflow.md`)
+9. [ ] Run `npm run content:push` to upload `content/` and preview
+10. [ ] Run `npm run content:live` to publish
 
-**Note:** Git push updates **code** (theme/blocks). Page **copy** must be edited in da.live — Adobe stores it at `content.da.live` (not in Git).
+**Or manual fallback:** `dalive/STEPS-*.txt` in da.live UI.
+
+**Note:** Git push updates **code** (blocks/theme). Page **copy** is in `content/` → uploaded to da.live via script.
 
 ## Local (already works)
 

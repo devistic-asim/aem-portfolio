@@ -24,7 +24,8 @@ Then open http://localhost:3000/drafts/ (local portfolio content).
 | Resource | Path |
 |----------|------|
 | Master guide | [`instructions.md`](instructions.md) |
-| **da.live copy/paste** | [`dalive/`](dalive/) ← start here for content |
+| **da.live copy/paste** | [`dalive/`](dalive/) ← manual fallback |
+| **Git content + upload** | [`content/`](content/) + `npm run content:push` |
 | File map | [`docs/file-map.md`](docs/file-map.md) |
 | Docs index | [`docs/overview.md`](docs/overview.md) |
 | Tutorials | [`tutorial/README.md`](tutorial/README.md) |

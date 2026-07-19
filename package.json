@@ -10,7 +10,12 @@
     "lint:fix": "npm run lint:js -- --fix && npm run lint:css -- --fix",
     "setup:local": "npx -y @adobe/aem-cli up --no-open --forward-browser-logs --html-folder drafts --url https://main--aem-portfolio--devistic-asim.aem.page",
     "dev": "npx -y @adobe/aem-cli up --no-open --forward-browser-logs --url https://main--aem-portfolio--devistic-asim.aem.page --html-folder drafts",
-    "dev:open": "npx -y @adobe/aem-cli up --forward-browser-logs --url https://main--aem-portfolio--devistic-asim.aem.page --html-folder drafts"
+    "dev:open": "npx -y @adobe/aem-cli up --forward-browser-logs --url https://main--aem-portfolio--devistic-asim.aem.page --html-folder drafts",
+    "content:upload": "node scripts/content-push.mjs upload",
+    "content:preview": "node scripts/content-push.mjs preview",
+    "content:publish": "node scripts/content-push.mjs publish",
+    "content:push": "node scripts/content-push.mjs push",
+    "content:live": "node scripts/content-push.mjs live"
   },
   "repository": {
     "type": "git",

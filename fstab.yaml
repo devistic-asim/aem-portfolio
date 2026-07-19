@@ -1,0 +1,11 @@
+# AEM Edge Delivery — content mount reference
+#
+# Helix 5 sites use Config Service (see config/helix-site.json).
+# This file documents where production content is stored.
+#
+# Content is authored in Git under content/ and uploaded via:
+#   npm run content:push
+#
+# Live content bus URL (after upload):
+mountpoints:
+  /: https://content.da.live/devistic-asim/aem-portfolio/

@@ -124,7 +124,10 @@ Official tutorial: https://www.aem.live/developer/tutorial
 
 | Path | Use |
 |------|-----|
-| `dalive/` | **Copy/paste content for da.live** (`home.txt`, `nav.txt`, `footer.txt`) |
+| `dalive/` | Manual da.live UI steps (fallback) |
+| `content/` | Production HTML in Git — upload via `npm run content:push` |
+| `config/helix-site.json` | Helix site config |
+| `fstab.yaml` | Content mount reference |
 | `docs/overview.md` | Docs index |
 | `docs/file-map.md` | Every file explained |
 | `docs/portfolio-blocks.md` | Authoring tables |

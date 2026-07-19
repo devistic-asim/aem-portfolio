@@ -19,5 +19,6 @@ Read in order the first time. Jump to a topic later as needed.
 | 10 | [10-da-live-authoring.md](10-da-live-authoring.md) | Author content in da.live |
 | 11 | [11-sidekick-workflow.md](11-sidekick-workflow.md) | Preview and publish |
 | 12 | [12-cursor-ai-setup.md](12-cursor-ai-setup.md) | Agents, rules, MCP |
+| 13 | [13-content-upload.md](13-content-upload.md) | Edit `content/` + upload script |
 
 **Also see:** [`docs/`](../docs/) for reference topics and [`instructions.md`](../instructions.md) for the master checklist.
