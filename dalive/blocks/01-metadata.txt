@@ -1,7 +1,9 @@
-Paste as a Metadata table on the home page:
+In da.live home page, add a Metadata table:
 
-title | Muhammad Asim | Senior Software Engineer
-description | Full-Stack .NET Developer in Karachi — .NET Core, React, SQL Server, FinTech & e-commerce.
-nav | /nav
-footer | /footer
-theme | dark
+| title | Muhammad Asim | Senior Software Engineer |
+| description | Full-Stack .NET Developer in Karachi |
+| nav | /nav |
+| footer | /footer |
+| theme | dark |
+
+Or paste home.html which has the blocks; set metadata in the da.live UI.

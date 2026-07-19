@@ -1,33 +1,28 @@
-DALIVE FOLDER — copy / paste into https://da.live/
-==================================================
+READ THIS FIRST — do NOT paste this file into da.live
+=====================================================
 
-Site: aem-portfolio  (devistic-asim)
-Sign in with your Adobe ID.
+What went wrong before:
+  You pasted home.txt including the ========== lines.
+  Those were NOTES for you. AEM showed them as plain text.
 
-HOW TO USE (3 pages)
---------------------
-1. Open da.live → your aem-portfolio site
-2. Open each file below → Select All → Copy → Paste into da.live
-3. Sidekick → Preview → then Publish
+What to do instead:
+  1. Delete / clear the bad content on your home page in da.live
+  2. Paste ONLY from the clean files below (they have no notes)
+  3. In da.live you must create TABLES (Insert → Table), not plain text
 
-FILES
------
-nav.txt       → paste into document path:  /nav
-footer.txt    → paste into document path:  /footer
-home.txt      → paste into document path:  /   (or index / home)
+CLEAN FILES (paste these only)
+------------------------------
+  nav.html      → document path /nav
+  footer.html   → document path /footer
+  home.html     → document path /  (home)
 
-Optional (if you prefer one block at a time on the home page):
-  blocks/01-metadata.txt
-  blocks/02-hero.txt
-  blocks/03-about.txt
-  blocks/04-skills.txt
-  blocks/05-projects.txt
-  blocks/06-contact.txt
+How to paste home.html:
+  1. Open home.html in browser OR open in Cursor
+  2. Select All → Copy
+  3. In da.live home page → Paste
+  4. Tables should appear as real tables (block name in first row)
+  5. Put a horizontal rule between sections if needed
+  6. Sidekick → Preview → Publish
 
-TIPS
-----
-- In da.live, put a horizontal line (---) between each block section.
-- First cell of each table = block name (hero, about, skills, …)
-- After paste: Preview on *.aem.page then Publish to *.aem.live
-
-Local preview (no da.live needed):  http://localhost:3000/drafts/
+If paste as HTML does not work in da.live:
+  Use blocks/*.html one table at a time (Insert table manually).
