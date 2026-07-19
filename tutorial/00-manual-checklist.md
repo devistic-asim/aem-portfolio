@@ -11,9 +11,12 @@ Code is ready in this repo. Adobe + GitHub wiring needs your accounts.
 5. [ ] Sign in to [da.live](https://da.live/) with your Adobe ID
 6. [ ] Connect/create the site for `aem-portfolio`
 7. [ ] Install [AEM Sidekick](https://chromewebstore.google.com) (search “AEM Sidekick”) and pin it
-8. [ ] Author `/`, `/nav`, `/footer` using tables from `docs/portfolio-blocks.md`
-9. [ ] Sidekick **Preview** → then **Publish**
-10. [ ] Replace LinkedIn URL, add headshot + resume PDF when ready
+8. [ ] Author `/`, `/nav`, `/footer` — **copy from** [`docs/da-live-home-content.md`](../docs/da-live-home-content.md) (FlowCV + LinkedIn already filled in)
+9. [ ] Sidekick **Preview** → confirm https://main--aem-portfolio--devistic-asim.aem.page/
+10. [ ] Sidekick **Publish** → https://main--aem-portfolio--devistic-asim.aem.live/
+11. [ ] Optional: add headshot image in the About block
+
+**Note:** Git push updates **code** (theme/blocks). Page **copy** must be edited in da.live — Adobe stores it at `content.da.live` (not in Git).
 
 ## Local (already works)
 
