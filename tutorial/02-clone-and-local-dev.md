@@ -20,11 +20,12 @@ This runs:
 npx -y @adobe/aem-cli up --html-folder drafts --url https://main--aem-portfolio--devistic-asim.aem.page
 ```
 
-Open http://localhost:3000/
+Open http://localhost:3000/drafts/
 
 ## What to open first
 
-- Home (drafts): `/` or `/portfolio`
+- Home (drafts): http://localhost:3000/drafts/
+- Portfolio alias: http://localhost:3000/drafts/portfolio
 - Edit styles: `styles/styles.css`
 - Edit a block: `blocks/hero/hero.css`
 

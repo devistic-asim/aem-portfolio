@@ -113,9 +113,12 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
  * @param {Element} block The header block element
  */
 export default async function decorate(block) {
-  // load nav as fragment
+  // load nav as fragment (local drafts live under /drafts)
   const navMeta = getMetadata('nav');
-  const navPath = navMeta ? new URL(navMeta, window.location).pathname : '/nav';
+  let navPath = navMeta ? new URL(navMeta, window.location).pathname : '/nav';
+  if (!navMeta && window.location.hostname === 'localhost') {
+    navPath = '/drafts/nav';
+  }
   const fragment = await loadFragment(navPath);
 
   // decorate nav DOM

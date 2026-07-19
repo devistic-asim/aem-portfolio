@@ -17,7 +17,7 @@ npm i
 npm run dev
 ```
 
-Then open http://localhost:3000/
+Then open http://localhost:3000/drafts/ (local portfolio content).
 
 ## Documentation
 

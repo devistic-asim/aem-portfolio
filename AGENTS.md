@@ -10,7 +10,7 @@ AI agents: read **`instructions.md`** first — it contains all AEM, Git, and do
 | Site slug | `aem-portfolio` |
 | Preview | https://main--aem-portfolio--devistic-asim.aem.page/ |
 | Live | https://main--aem-portfolio--devistic-asim.aem.live/ |
-| Local | http://localhost:3000/ |
+| Local | http://localhost:3000/drafts/ |
 
 ## Setup
 

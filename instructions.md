@@ -33,7 +33,7 @@ https://{branch}--{site-slug}--{org}.aem.live/   → live
 
 - Preview: https://main--aem-portfolio--devistic-asim.aem.page/
 - Live: https://main--aem-portfolio--devistic-asim.aem.live/
-- Local: http://localhost:3000/
+- Local (drafts): http://localhost:3000/drafts/
 
 ---
 
@@ -62,9 +62,9 @@ aem-portfolio/
 
 ### Draft content
 
-- `drafts/index.plain.html` → local home
-- `drafts/portfolio.plain.html` → `/portfolio`
-- `drafts/nav.plain.html` / `drafts/footer.plain.html` → fragments
+- `drafts/index.plain.html` → http://localhost:3000/drafts/
+- `drafts/portfolio.plain.html` → http://localhost:3000/drafts/portfolio
+- `drafts/nav.plain.html` / `drafts/footer.plain.html` → fragments (`/drafts/nav`, `/drafts/footer` on localhost)
 - Run with: `npm run dev`
 
 ---

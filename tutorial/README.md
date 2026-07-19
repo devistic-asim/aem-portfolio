@@ -6,6 +6,7 @@ Read in order the first time. Jump to a topic later as needed.
 
 | # | Guide | You will learn |
 |---|-------|----------------|
+| 00 | [00-manual-checklist.md](00-manual-checklist.md) | Quick checklist of account steps only you can do |
 | 01 | [01-github-and-aem-setup.md](01-github-and-aem-setup.md) | Create repo, Code Sync, da.live, Sidekick |
 | 02 | [02-clone-and-local-dev.md](02-clone-and-local-dev.md) | Clone, npm, `aem up` |
 | 03 | [03-project-anatomy.md](03-project-anatomy.md) | blocks, scripts, styles, head |

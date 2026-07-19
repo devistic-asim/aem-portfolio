@@ -20,18 +20,22 @@ Or:
 npx -y @adobe/aem-cli up --html-folder drafts --url https://main--aem-portfolio--devistic-asim.aem.page
 ```
 
-Opens (or serves) http://localhost:3000/
+Serves http://localhost:3000/
+
+**Open the portfolio draft at:** http://localhost:3000/drafts/
+
+(Root `/` proxies the remote preview until da.live content exists.)
 
 ## Drafts
 
-Files in `drafts/`:
+Files in `drafts/` are served under `/drafts/`:
 
 | File | Local path |
 |------|------------|
-| `index.plain.html` | `/` or `/index` |
-| `portfolio.plain.html` | `/portfolio` |
-| `nav.plain.html` | `/nav` (header fragment) |
-| `footer.plain.html` | `/footer` |
+| `index.plain.html` | `/drafts/` or `/drafts/index` |
+| `portfolio.plain.html` | `/drafts/portfolio` |
+| `nav.plain.html` | `/drafts/nav` (header uses this on localhost) |
+| `footer.plain.html` | `/drafts/footer` |
 
 Edit HTML, CSS, or JS and refresh — changes are immediate.
 
