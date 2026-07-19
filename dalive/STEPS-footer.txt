@@ -1,0 +1,17 @@
+BUILD /footer IN DA.LIVE (no HTML paste)
+========================================
+
+1. Open https://da.live/ → aem-portfolio
+2. Create or open document named:  footer
+3. DELETE everything on the page first
+
+4. Type one line:
+
+      © 2026 Muhammad Asim — flowcv.me/devistic — Built with Adobe Experience Manager Edge Delivery Services
+
+5. Select "flowcv.me/devistic" → make LINK →
+      https://flowcv.me/devistic
+
+6. Save
+7. Sidekick → Preview
+8. Sidekick → Publish

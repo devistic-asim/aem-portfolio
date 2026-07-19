@@ -1,0 +1,24 @@
+BUILD /nav IN DA.LIVE (no HTML paste)
+=====================================
+
+1. Open https://da.live/ → aem-portfolio
+2. Create or open document named:  nav
+3. DELETE everything on the page first
+
+4. Type this text:
+      < Muhammad Asim >
+   Select it → make it a LINK → URL:  /
+
+5. Press Enter, then insert a HORIZONTAL RULE (divider)
+   (or new section if da.live has "section break")
+
+6. Insert a BULLET LIST with 4 items. Make each a link:
+
+      About      →  #about
+      Skills     →  #skills
+      Projects   →  #projects
+      Contact    →  #contact
+
+7. Save
+8. Sidekick → Preview  (check /nav loads)
+9. Sidekick → Publish

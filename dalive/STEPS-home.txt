@@ -1,0 +1,111 @@
+BUILD HOME PAGE IN DA.LIVE (no HTML paste)
+==========================================
+
+1. Open https://da.live/ → home / index
+2. DELETE all the broken content (the HTML tags, ==== lines, etc.)
+
+3. METADATA (Insert → Table, or Metadata panel)
+   Add rows:
+      title        | Muhammad Asim | Senior Software Engineer
+      description  | Full-Stack .NET Developer in Karachi
+      nav          | /nav
+      footer       | /footer
+      theme        | dark
+
+------------------------------------------------
+4. HERO — Insert TABLE
+   Row 1 (block name):   hero
+   Row 2:   Senior Software Engineer
+   Row 3:   Muhammad Asim
+   Row 4:   Full-Stack .NET Developer with 5+ years building scalable web apps, FinTech backends, and e-commerce platforms. Skilled in ASP.NET, .NET Core, C#, React, and SQL Server — delivering clean code and reliable solutions on time.
+   Row 5:   Download Resume
+            (link that text to https://flowcv.com/resume/bi3n0fepke)
+
+5. Insert HORIZONTAL RULE
+
+------------------------------------------------
+6. ABOUT — Insert TABLE
+   Row 1:   about
+   Row 2:   Muhammad Asim
+   Row 3:   Email   GitHub   LinkedIn   X   dev.to
+            (link them:)
+            Email    → mailto:asim.devistic@gmail.com
+            GitHub   → https://github.com/devistic-asim
+            LinkedIn → https://www.linkedin.com/in/devistic-asim
+            X        → https://x.com/devistic_asim
+            dev.to   → https://dev.to/devistic
+   Row 4:   About
+   Row 5:   Get to know a bit about me
+   Row 6:   I'm Muhammad Asim, a Senior Software Engineer based in Karachi, Pakistan. With over 5 years of experience as a Full-Stack .NET Developer, I work with ASP.NET, .NET Core, C#, MVC, Web APIs, Razor, Blazor, and JavaScript frameworks like React and jQuery.
+   Row 7:   My front-end work covers HTML5, CSS3, Bootstrap, Tailwind, and responsive design. On the back end I use MSSQL Server, MySQL, Dapper, and Web APIs to build scalable solutions. I focus on clean code, mentoring teammates, and using AI tools like Cursor and ChatGPT to ship faster.
+
+7. Insert HORIZONTAL RULE
+
+------------------------------------------------
+8. SKILLS — Insert TABLE (1 column)
+   Row 1:   skills
+   Then one skill per row:
+      .NET Core
+      C#
+      ASP.NET MVC
+      React
+      Blazor
+      Angular
+      SQL Server
+      Dapper
+      JavaScript
+      HTML5
+      CSS3
+      Bootstrap
+      Tailwind CSS
+      SharePoint
+      Azure DevOps
+      AEM / EDS
+      Git
+
+9. Insert HORIZONTAL RULE
+
+------------------------------------------------
+10. PROJECTS — Insert TABLE (4 columns)
+    Row 1:   projects | (empty) | (empty) | (empty)
+    Then rows:
+
+    Fougito Platform | All-in-one platform for restaurants and auto businesses — POS, dashboards, payment gateways, and Web APIs. | .NET Core, Web APIs, SQL Server, React, Bootstrap | View Profile
+      (link View Profile → https://flowcv.me/devistic)
+
+    BankIslami Mobile Banking | Backend for BankIslami mobile app and internet banking — transfers, bill payments, SBP compliance, L3 support. | .NET Core, Dapper, MS SQL Server, FinTech | View on LinkedIn
+      (link → https://www.linkedin.com/in/devistic-asim)
+
+    KE New Connections Suite | Digital forms and tracking for K-Electric — New Connections, Net Metering, Scheme Designs, SAP integration. | .NET Core, SharePoint, React, SQL Server, SAP | View Resume
+      (link → https://flowcv.com/resume/bi3n0fepke)
+
+    Tanjim Dubai E-Commerce | Clothing e-commerce with admin portal and mobile APIs. | .NET Core, Web APIs, SQL Server, Bootstrap | View on GitHub
+      (link → https://github.com/devistic-asim)
+
+    Tristate Health Inc | Healthcare site and admin portal for patients and appointments. | .NET, SQL Server, Bootstrap, jQuery | View Profile
+      (link → https://flowcv.me/devistic)
+
+    On My Way — Car Rental | Dubai car rental web platform with mobile APIs. | .NET Core, Web APIs, SQL Server | View Resume
+      (link → https://flowcv.com/resume/bi3n0fepke)
+
+11. Insert HORIZONTAL RULE
+
+------------------------------------------------
+12. CONTACT — Insert TABLE (2 columns)
+    Row 1:   contact | (empty)
+    Email | asim.devistic@gmail.com
+    Phone | 0320-0279291
+    Location | Karachi, Pakistan
+    LinkedIn | linkedin.com/in/devistic-asim   → https://www.linkedin.com/in/devistic-asim
+    GitHub | github.com/devistic-asim         → https://github.com/devistic-asim
+    X / Twitter | @devistic_asim              → https://x.com/devistic_asim
+    dev.to | dev.to/devistic                  → https://dev.to/devistic
+    Resume | flowcv.com/resume                → https://flowcv.com/resume/bi3n0fepke
+
+------------------------------------------------
+13. Sidekick → Preview
+    Check: https://main--aem-portfolio--devistic-asim.aem.page/
+    You should see DARK theme + styled sections (not raw HTML)
+
+14. Sidekick → Publish
+    Check: https://main--aem-portfolio--devistic-asim.aem.live/
