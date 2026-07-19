@@ -1,0 +1,13 @@
+---
+description: Conventions for global styles
+globs: styles/**/*.css
+alwaysApply: false
+---
+
+# Global styles
+
+- Keep design tokens in `:root` inside `styles/styles.css`
+- Do not load external font CDNs; use self-hosted `fonts/`
+- Put non-critical rules in `lazy-styles.css`
+- Preserve LCP-friendly loading (fonts after first paint)
+- Section utility classes: `.surface`, `.pixel-divider`, `.accent-border`, `.dark`

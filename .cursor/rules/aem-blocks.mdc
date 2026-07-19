@@ -1,0 +1,14 @@
+---
+description: Conventions for AEM block JavaScript
+globs: blocks/**/*.js
+alwaysApply: false
+---
+
+# AEM block JS
+
+- Export `export default function decorate(block)` or async equivalent
+- Keep decoration resilient to missing rows/cells
+- Use `createOptimizedPicture` for content images
+- Import from `../../scripts/aem.js` with `.js` extension
+- No bundlers, no JSX, no TypeScript in blocks
+- Prefer small helpers inside the file over new shared modules unless reused 3+ times

@@ -1,0 +1,32 @@
+{
+  "name": "@devistic/aem-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Muhammad Asim personal portfolio — AEM Edge Delivery Services",
+  "scripts": {
+    "lint:js": "eslint .",
+    "lint:css": "stylelint \"blocks/**/*.css\" \"styles/*.css\"",
+    "lint": "npm run lint:js && npm run lint:css",
+    "lint:fix": "npm run lint:js -- --fix && npm run lint:css -- --fix",
+    "setup:local": "npx -y @adobe/aem-cli up --no-open --forward-browser-logs --html-folder drafts --url https://main--aem-portfolio--devistic-asim.aem.page",
+    "dev": "npx -y @adobe/aem-cli up --no-open --forward-browser-logs --url https://main--aem-portfolio--devistic-asim.aem.page --html-folder drafts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devistic-asim/aem-portfolio.git"
+  },
+  "author": "Muhammad Asim",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/devistic-asim/aem-portfolio/issues"
+  },
+  "homepage": "https://github.com/devistic-asim/aem-portfolio#readme",
+  "devDependencies": {
+    "@babel/eslint-parser": "7.29.7",
+    "eslint": "8.57.1",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.32.0",
+    "stylelint": "17.14.0",
+    "stylelint-config-standard": "40.0.0"
+  }
+}

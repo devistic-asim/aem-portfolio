@@ -1,0 +1,13 @@
+---
+description: Conventions for AEM block CSS
+globs: blocks/**/*.css
+alwaysApply: false
+---
+
+# AEM block CSS
+
+- Scope all selectors under `.{blockname}` (or `header` / `footer` where appropriate)
+- Use theme tokens: `--accent-color`, `--surface-color`, `--text-muted`, etc.
+- Mobile-first; enhance at 600px / 900px / 1200px
+- Prefer flex/grid; avoid fixed desktop-only widths
+- Match existing portfolio visual language (dark cards, cyan accents)

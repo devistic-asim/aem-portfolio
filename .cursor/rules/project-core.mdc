@@ -1,0 +1,18 @@
+---
+description: Core project context — read instructions.md first
+alwaysApply: true
+---
+
+# AEM Portfolio
+
+Before any task, read `instructions.md` for AEM, Git, and docs facts.
+
+- Repo: `devistic-asim/aem-portfolio`
+- Site slug: `aem-portfolio`
+- Never modify `scripts/aem.js`
+- Code in Git; content in da.live via Sidekick (local: `drafts/`)
+- Dark theme tokens in `styles/styles.css`
+- Lint: `npm run lint` | Dev: `npm run dev`
+- PRs require preview URL on `*.aem.page`
+
+Use specialized agents in `.cursor/agents/` for blocks, content, site admin, git, and docs.

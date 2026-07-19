@@ -1,0 +1,13 @@
+---
+description: Conventions for project scripts
+globs: scripts/**/*.js
+alwaysApply: false
+---
+
+# Project scripts
+
+- **Never edit** `scripts/aem.js`
+- Keep Trusted Types policy and load phases in `scripts.js`
+- Eager: decorate + first section; Lazy: header/sections/footer; Delayed: 3s defer
+- Preserve `decorateMain` export for fragment loading
+- Avoid heavy work on the critical path

@@ -1,0 +1,15 @@
+---
+description: Git, PR, and release conventions
+globs: .github/**/*
+alwaysApply: false
+---
+
+# Git and PRs
+
+- Commit only when the user asks
+- Include preview URL: `https://{branch}--aem-portfolio--devistic-asim.aem.page/`
+- Run `npm run lint` before merge
+- Do not commit secrets or `node_modules`
+- PR template lives in `.github/pull_request_template.md`
+- Use `gh` for GitHub operations
+
